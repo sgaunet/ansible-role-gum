@@ -1,0 +1,6 @@
+---
+- name: Install gum
+  hosts: localhost
+  remote_user: root
+  roles:
+    - sgaunet.gum

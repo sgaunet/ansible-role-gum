@@ -27,5 +27,4 @@ tasks:
     cmds:
       - rm -rf ~/.ansible/roles/sgaunet.gum
       - source venv/bin/activate && molecule destroy
-      - source venv/bin/activate && molecule converge
-      - source venv/bin/activate && molecule converge
+      - source venv/bin/activate && molecule test

@@ -3,5 +3,5 @@
 gum_version: "latest"
 gum_bin_path: "/usr/local/bin"
 gum_tmp_directory: "{{ lookup('env', 'TMPDIR') | default('/tmp', true) }}"
-gum_os: "linux"
+gum_os: "Linux"
 gum_arch: "x86_64"

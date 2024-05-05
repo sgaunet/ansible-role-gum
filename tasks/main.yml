@@ -52,9 +52,9 @@
         remote_src: true
         mode: "0755"
 
-    - name: Copy file with owner and permissions
+    - name: Copy file with owner and permissions 2
       ansible.builtin.copy:
-        src: "{{ gum_tmp_directory }}/{{ gum_os }}-{{ gum_arch }}/gum"
+        src: "{{ gum_tmp_directory }}/{{ gum_os }}-{{ gum_arch }}/gum_{{ gum_version }}_{{ gum_os }}_{{ gum_arch }}/gum"
         dest: "{{ gum_bin_path }}/gum"
         mode: '0755'
         remote_src: true
